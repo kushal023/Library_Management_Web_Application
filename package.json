@@ -1,0 +1,26 @@
+{
+  "name": "library_management_web_application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushalchauhan7629/Library_Management_Web_Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kushalchauhan7629/Library_Management_Web_Application/issues"
+  },
+  "homepage": "https://github.com/kushalchauhan7629/Library_Management_Web_Application#readme",
+  "dependencies": {
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
