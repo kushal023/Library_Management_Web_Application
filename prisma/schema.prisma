@@ -1,0 +1,27 @@
+// This is your Prisma schema file
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+model Book{
+  id    Int     @id @default(autoincrement())
+   bookID  String
+   title String
+   authors String
+   average_rating String
+   isbn String
+   isbn13 String
+   language_code String
+     num_pages String
+   ratings_count String
+   text_reviews_count String
+   publication_date String
+   publisher String
+
+}

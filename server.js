@@ -14,4 +14,3 @@ app.get('/', (req, res) => {
 app.listen(Port, (req, res) => {
   console.log(`http://localhost:${Port}`);
 });
-Footer;
